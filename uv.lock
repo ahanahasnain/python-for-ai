@@ -487,6 +487,7 @@ dependencies = [
     { name = "pandas" },
     { name = "python-dotenv" },
     { name = "requests" },
+    { name = "some-package" },
 ]
 
 [package.metadata]
@@ -496,6 +497,7 @@ requires-dist = [
     { name = "pandas", specifier = ">=3.1.1" },
     { name = "python-dotenv", specifier = ">=1.2.4" },
     { name = "requests", specifier = ">=2.34.2" },
+    { name = "some-package", specifier = ">=0.1" },
 ]
 
 [[package]]
@@ -546,6 +548,12 @@ sdist = { url = "https://files.pythonhosted.org/packages/ac/c3/e2a2b89f2d3e2179a
 wheels = [
     { url = "https://files.pythonhosted.org/packages/a0/f4/c67b0b3f1b9245e8d266f0f112c500d50e5b4e83cb6f3b71b6528104182a/requests-2.34.2-py3-none-any.whl", hash = "sha256:2a0d60c172f83ac6ab31e4554906c0f3b3588d37b5cb939b1c061f4907e278e0", size = 73075, upload-time = "2026-05-14T19:25:26.443Z" },
 ]
+
+[[package]]
+name = "some-package"
+version = "0.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/e7/a2/d318a685319c3801db1ae0002fc8e095663a55546c62a6e30d9d0fc3289b/some-package-0.1.zip", hash = "sha256:9310116578374565f73ab79a650e6e2965440ed1a2c4e50db86242eb9cb93343", size = 2776, upload-time = "2018-05-24T09:21:22.232Z" }
 
 [[package]]
 name = "stack-data"
